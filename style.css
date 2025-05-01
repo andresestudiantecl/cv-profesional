@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    margin: 0;
+    padding: 0;
+}
+
+.cbz_header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cbz_title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+main {
+    padding: 30px;
+}
+
+/* Titulos */
+.title {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+.exp_list, .edu_list, .course_list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Ítems */
+.exp_item, .edu_item, .course_item {
+    margin-bottom: 15px;
+}
+
+/* titulos relevantes */
+.exp_location, .edu_location, .course_location {
+    font-weight: bold;
+    font-size: 1.4rem; /* Más grande */
+    color: #343A40;
+}
+
+/* Títulos secundarios  */
+.exp_title, .edu_title, .course_title {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.exp_date, .edu_date, .course_date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.exp_desc, .aboutme_desc {
+    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* las skills */
+.skill_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skill_item {
+    background-color: #e3eaf3;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Contacto */
+.contact_item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.contact_item i {
+    margin-right: 8px;
+    color: #007BFF;
+}
